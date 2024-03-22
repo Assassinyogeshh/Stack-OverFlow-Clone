@@ -1,0 +1,160 @@
+.navbar {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    background-color: #f8f9f9;
+    border-top: 3px solid #ef8236;
+    box-shadow: 0 1px 5px #00000033;
+}
+
+.nav_links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.Links {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 30rem;
+}
+
+.Links li {
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    cursor: pointer;
+}
+
+.auth img {
+    height: 1rem;
+    width: 1rem;
+    transform: translateX(-13.6rem) translateY(4px);
+
+}
+
+.auth input {
+    height: 2rem;
+    width: 14rem;
+    padding-left: 1.5rem;
+    
+}
+
+.btn {
+    height: 2rem;
+    width: 4rem;
+    border: 1px solid blue;
+    background-color: #e7f8fe;
+    cursor: pointer;
+}
+
+.user_first_char {
+    background-color: rgb(0, 157, 255);
+    padding: 7px 10px;
+    color: white;
+    border-radius: 50%;
+    text-align: center;
+    text-decoration: none;
+    margin-right: 1rem;
+}
+
+.logout_btn {
+    background-color: #e7f8fe;
+    border: 1px solid blue;
+    border-radius: 3px;
+    cursor: pointer;
+    padding: 7px 13px;
+}
+
+.logout_btn:hover {
+    background-color: #d3e4eb;
+}
+
+.hamburger {
+    display: none;
+    transition: 0.2s;
+    padding: 5px 6px 3px 6px;
+    border-radius: 50%;
+    background-color: inherit;
+    border: none;
+    cursor: pointer;
+}
+
+
+
+
+
+.auth {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* background-color: yellowgreen; */
+    width: 28rem;
+    position: relative;
+}
+
+#NotifyImg{
+    position: relative;
+    border: none;
+    border-radius: 50%;
+       height: 2.2rem;
+       width: 2.5rem;
+       background-color: white;
+       left: 13rem;
+}
+
+#stackLogo{
+    height: 2rem ;
+    width: 9rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#idImg{
+    position: relative;
+    border: none;
+    border-radius: 50%;
+       height: 2.2rem;
+       width: 2.2rem;
+       background-color: white;
+       left: 14rem;
+}
+
+@media screen and (max-width:414px) {
+
+    .navbar {
+
+        width: 100vw;
+
+    }
+
+    .hamburger {
+        display: block;
+    }
+
+    .nav_links {
+        width: 100vw;
+    }
+
+    .Links {
+        display: none;
+    }
+
+
+    #searchIcon {
+        display: none;
+    }
+
+    .auth img {
+        display: none;
+
+    }
+
+    .user_first_char {
+        padding: 4px 10px;
+    }
+}

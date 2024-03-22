@@ -1,0 +1,128 @@
+.right_Side {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
+.first_box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    box-shadow: 3px 3px 10px rgba(209, 190, 190, 0.05), -3px -3px 10px rgb(0 0 0/5%);
+    margin-top: 10px;
+}
+
+
+.blog_meta_post {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.defaultBG{
+    font-size: 15px;
+    width: 97%;
+    border: 1px solid #f1e5bc;
+    /* background-color: #fbf3d5; */
+    height: 3.4rem;
+    display: flex;
+    align-items: center;
+    padding-left: 8px;
+    margin-bottom: 0;
+}
+
+
+.DefaultLi {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+    width: 97%;
+}
+
+.blog_meta_post p {
+    font-size: 14px;
+    margin-left: 17px;
+}
+
+.becomeRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.blog_meta_post img {
+    height: 18px;
+    margin-left: 15px;
+}
+
+.BLOGS {
+    padding-left: 0rem;
+    width: 99%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+}
+
+.META {
+    padding-left: 0rem;
+    width: 99%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: -28px;
+}
+
+.POST {
+    padding-left: 0rem;
+    padding-left: 0rem;
+    width: 99%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: -28px;
+}
+
+.widget-tags {
+    margin-top: 40px;
+    box-shadow: 3px 3px 10px rgb(0 0 0 / 5%), -3px -3px 10px rgb(0 0 0 / 5%);
+    margin-bottom: 2rem;
+}
+
+.defaultH4 {
+    margin: 0%;
+    padding: 15px;
+    background-color: #f8f9f9;
+    border: solid 1px #e3e6e8;
+    font-size: 13px;
+    
+}
+
+.widget-tags-map {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    border: solid 1px #e3e6e8;
+    padding: 10px;
+}
+
+.defaultWidget {
+    padding: 5px;
+    background-color: #e1ecf4;
+    color: #39739d;
+    border-radius: 2px;
+    font-size: 13px;
+}

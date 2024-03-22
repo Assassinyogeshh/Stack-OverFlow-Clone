@@ -1,0 +1,9 @@
+
+ #google_translate_element {
+  position: absolute ;
+  top: 11%;
+  left:43%;
+  display:none;
+  /* z-index: -110 !important; */
+}
+

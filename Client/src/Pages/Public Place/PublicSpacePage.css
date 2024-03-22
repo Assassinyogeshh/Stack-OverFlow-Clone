@@ -1,0 +1,65 @@
+.publicPlace{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 90vh;
+}
+
+.sharePublicItems{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid;
+    flex-direction: column;
+    height: 80%;
+    width: 50%;
+    row-gap: 3rem;
+}
+
+.sharePublicText{
+    width: 80%;
+    height: 25%;
+    padding: 0.5rem;
+    outline: none;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.publicFiles{
+border: 1px solid;
+width: 80%;
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 1rem
+}
+
+.publicShareBtn{
+    cursor: pointer;
+    width:25%;
+    height: 2rem;
+    border-radius: 1rem;
+    border: 0.2px solid;
+    background: none;
+}
+
+
+.submitFiles{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 1.5rem;
+}
+
+.publicFilesShareBtn{
+    cursor: pointer;
+    width:25%;
+    height: 2rem;
+    border-radius: 1rem;
+    border: 0.2px solid;
+    background: none;
+}

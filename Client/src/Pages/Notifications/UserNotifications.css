@@ -1,0 +1,23 @@
+.showNotification{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 90vh;
+    width: 100%;
+  flex-direction: column;
+  /* overflow-y: scroll; */
+}
+
+.notification{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 20%;
+    border: 1px solid;
+    border-radius: 2.5rem;
+    box-sizing: border-box;
+    background: blueviolet;
+    padding: 0 1rem 0 1rem ;
+    flex-direction: column;
+  color: white;
+}

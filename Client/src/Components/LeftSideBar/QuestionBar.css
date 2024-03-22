@@ -1,0 +1,48 @@
+.main_home_bar {
+    display: grid;
+    height: 100vh;
+    width: 100vw;
+    grid-template-columns: 15rem 47rem 20rem;
+    justify-items: center;
+    align-items: center;
+
+}
+
+.LEFT_SIDE_BAR {
+    height: 100%;
+    display: flex;
+    width: 14rem;
+}
+
+.MIDDLE_SIDE_BAR {
+
+    height: 100%;
+    width: 52vw;
+}
+
+.RIGHT_SIDE_BAR {
+
+    height: 100%;
+    width: 100%;
+
+}
+
+@media screen and (max-width:414px) {
+    .main_home_bar {
+        grid-template-columns: 9rem 8rem;
+        width: 100vw;
+    }
+
+    .LEFT_SIDE_BAR {
+        z-index: 10;
+        width: 100%;
+    }
+
+    .MIDDLE_SIDE_BAR {
+        width: auto;
+    }
+
+    .RIGHT_SIDE_BAR {
+        display: none;
+    }
+}
