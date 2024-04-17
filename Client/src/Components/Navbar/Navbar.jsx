@@ -30,7 +30,7 @@ function Navbar({ handleSlideIn, isNight }) {
     }
 
     dispatch(currentUser(JSON.parse(localStorage.getItem("Profile"))));
-  }, [user?.token, dispatch]);
+  }, [user, handleLogOut]);
 
   return (
     <>
