@@ -1,0 +1,128 @@
+.left_container_side {
+    display: flex;
+    flex-direction: column;
+    width: 14rem;
+    align-items: flex-end;
+    justify-content: flex-start;
+    height: auto;
+    border-right: 1px solid rgba(0, 0, 0, .2);
+    /* width: 20rem !important; */
+}
+
+
+.left_side_list {
+    display: flex;
+    width: 70%;
+    flex-direction: column;
+    list-style: none;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+
+.left_side_list li {
+    cursor: pointer;
+
+    font-weight: 500;
+    height: 3rem;
+    width: 100%;
+    justify-content: flex-start;
+    display: flex;
+    align-items: center;
+}
+
+.adjust_img {
+    z-index: 1;
+    margin-left: -30px;
+}
+
+.remove_left_link_style {
+    text-decoration: none;
+    color: inherit;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 400;
+
+}
+
+.Public_Span {
+    display: flex;
+
+    width: 67%;
+    font-weight: 500;
+    height: 3rem;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.public_lists {
+    width: 67%;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+}
+
+.public_lists li {
+    display: flex;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    height: 3rem;
+}
+
+.Question_with_img {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    
+}
+
+.Question_with_img img {
+    z-index: 10;
+    margin-right: 1rem;
+}
+
+
+.active {
+    font-weight: bolder;
+    color: black;
+    background-color: rgb(225, 225, 225);
+    border-right: solid 3px #ef8236;
+    /* padding-left: 1rem; */
+    padding:3px;
+    width: 100%;
+}
+
+
+@media screen and (max-width: 414px) {
+    .left_container_side {
+        transform: translateX(-100%);
+        z-index: 10;
+        height: 100%;
+        padding-right: 1.5rem;
+    }
+
+    .left_side_list li{
+        width: 10rem;
+    }
+    
+    .adjust_img{
+        margin-left: -8px;
+    }
+}
+
+
+@media screen and (min-width:415px) and (max-width:768px) {
+    .left_container_side{
+        width: 100%;  
+        align-items: center;
+        justify-content: flex-start;
+    }
+    .adjust_img{
+        margin-left: -8px;
+    }
+}
