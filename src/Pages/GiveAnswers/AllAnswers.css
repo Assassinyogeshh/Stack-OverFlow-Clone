@@ -1,0 +1,98 @@
+.number_of_annwers {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+}
+
+.display_all_answers {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    border-bottom: 1px solid rgba(0, 0, 0, .112);
+}
+
+.given_answer_by_another_user {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 100%;
+    overflow-x: auto;
+    background-color: greenyellow;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+.different_user_ans {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.8;
+    color: #333;
+    margin-bottom: 20px;
+
+}
+
+.bottom_ans_row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 1rem;
+}
+
+.ans_share_delete_row_btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.ans_share_delete_row_btn button {
+    background-color: initial;
+    border: none;
+    color: #939292;
+    cursor: pointer;
+    font-size: 14px;
+    margin: 0 10px 0 0;
+    padding: 5px 0;
+    text-decoration: none;
+    transition: .3s;
+}
+
+.given_answer_date_by_user {
+    display: flex;
+    flex-direction: column;
+}
+
+.given_answer_date_by_user p {
+    font-size: 14px;
+    margin: 0;
+    text-decoration: none;
+}
+
+.given_answer_date_by_user span {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    column-gap: 0.7rem;
+}
+
+.user_ans_posted_link {
+    background-color: lightgreen;
+    padding: 5px 8px;
+    color: black;
+    border-radius: 4px;
+    text-align: center;
+    text-decoration: none;
+}

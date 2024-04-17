@@ -1,0 +1,121 @@
+.users_Page{
+    display: flex;
+    flex-direction: row;
+}
+
+.users_leftSide{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width:13.7rem;;
+    font-size: 15px;
+    height: auto;
+    box-shadow: 1px 1px 0 rgba(0,0,0,.2);
+    background-color: #fff;
+}
+.all_users{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.all_users h1{
+    margin-left: 4rem;
+}
+
+.stack_users{
+   display: grid;
+    grid-template-columns: repeat(5, 14rem);
+    column-gap: 0.5rem;
+    row-gap: 1rem;
+}
+
+.users{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 0.5rem;
+    align-items: center;
+}
+
+.remove_users_link_style{
+    text-decoration: none;
+    color: inherit;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 0.5rem;
+    align-items: center;
+
+}
+
+.users h3{
+    background-color: #d3d3d3;
+    width: 36px;
+    height: 37px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+@media screen and (min-width:200px) and (max-width:414px) {
+    .users_Page{
+        width: 100%;
+        grid-template-columns: 0% 100%;
+        display: grid;
+        justify-items: center;
+    align-items: center;
+
+    }
+
+    .stack_users{
+        grid-template-columns: repeat(2, 6.6rem);
+        font-size: 13px;
+    }
+
+    .users h3{
+        width: 26px;
+        height: 26px;
+    }
+}
+
+@media screen and (min-width:414px) and (max-width:600px) {
+    .users_Page{
+        width: 100%;
+        grid-template-columns: 36% 55%;
+        display: grid;
+        justify-items: center;
+    align-items: center;
+  
+    }
+
+    .stack_users{
+        grid-template-columns: repeat(2, 9rem);
+        margin-left: 1rem;
+    }
+}
+@media screen and (min-width:600px) and (max-width:800px) {
+    .users_Page{
+        width: 100%;
+        grid-template-columns: 36% 55%;
+        display: grid;
+        justify-items: center;
+    align-items: center;
+  
+    }
+
+    .stack_users{
+        grid-template-columns: repeat(2, 13rem);
+        margin-left: 1rem;
+    }
+}
+
+
+
+
+
+
